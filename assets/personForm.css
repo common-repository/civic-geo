@@ -1,0 +1,17 @@
+.pods-form-ui-row-name-first-name {
+	float:left;
+	width:50%;
+
+}
+
+.pods-form-ui-row-name-last-name {
+	float:right;
+	width:50%;
+
+}
+
+.pods-form-ui-row-name-first-name::before {
+  content: "Name";
+  font-weight: bold;
+  float:left;
+}
